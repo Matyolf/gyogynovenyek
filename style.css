@@ -35,8 +35,6 @@ nav {
     background-position: center;
     border: 2px solid rgba(0, 162, 255, 0.77);
     border-radius: 45px;
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 14px;
@@ -46,7 +44,7 @@ nav {
 }
 
 a {
-    display: inline-flex;
+    
     align-items: center;
     justify-content: center;
     min-width: 120px;
