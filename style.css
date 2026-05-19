@@ -1,0 +1,147 @@
+*{
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif, sans-serif;
+}
+
+body {
+    background-color: rgb(231, 202, 164);
+    background-image: url("kepek/fohatter.png");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+header {
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+    padding: 50px;
+    text-align: center;
+    border: 2px dashed black;
+    border-radius: 25px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #c4e9f0;
+    background-image: url("kepek/fohatter.png");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgba(0, 162, 255, 0.77);
+    border-radius: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    padding: 16px 18px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+    padding: 12px 18px;
+    color: #111;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    border: 2px solid #ff94de;
+    border-radius: 999px;
+    background-color: #ffc7f1;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+a:hover,
+a:focus-visible {
+    transform: translateY(-2px);
+    background-color: #ffb2ee;
+}
+
+article {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #c4e9f0;
+    background-image: url("kepek/fohatter.png");
+    background-size: cover;
+    background-position: center;
+    border: 2px solid rgba(0, 162, 255, 0.77);
+    border-radius: 45px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+div {
+    padding: 15px;
+    margin: 25px;
+    background-image: url("kepek/divhatter.png");
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 35px;
+    margin-top: 12px;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 25px;
+}
+
+#kamilla{
+    background-color: beige;
+    border: 2px solid bisque;
+    border-radius: 35px;
+}
+
+#gyomber{
+    background-color: #ffbc50;
+    border: 2px solid #ff9d00;
+    border-radius: 35px;
+}
+
+#levendula{
+    background-color: #d07eff;
+    border: 2px solid #ad20ff;
+    border-radius: 35px;
+}
+
+#csalan{
+    background-color: #62ffc5;
+    border: 2px solid #00ffa2;
+    border-radius: 35px;
+}
+
+footer{
+    font-weight: bold;
+}
+
+@media screen and (max-width: 650px) {
+    nav {
+        grid-template-columns: 100%;
+    }
+
+    article {
+        grid-template-columns: 100%;
+    }
+    
+}
